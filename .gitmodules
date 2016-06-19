@@ -1,0 +1,4 @@
+[submodule "styles/stylish-portfolio"]
+	path = styles/stylish-portfolio
+	url = https://github.com/BlackrockDigital/startbootstrap-stylish-portfolio.git
+	branch = v4-dev
