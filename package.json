@@ -1,0 +1,37 @@
+{
+  "name": "10secondstolaunch",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "css-loader": "^0.23.1",
+    "file-loader": "^0.8.5",
+    "flipclock": "^0.7.8",
+    "font-awesome": "^4.6.3",
+    "font-awesome-webpack": "0.0.4",
+    "react": "^15.1.0",
+    "react-redux": "^4.4.5",
+    "redux": "^3.5.2",
+    "style-loader": "^0.13.1",
+    "svg-url-loader": "^1.0.3",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "server": "webpack-dev-server --progress --colors -w",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack --cache=false -w ./index.js bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/housepage/10secondstolaunch.git"
+  },
+  "author": "Andrew 'Peaches' Gall",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/housepage/10secondstolaunch/issues"
+  },
+  "homepage": "https://github.com/housepage/10secondstolaunch#readme"
+}

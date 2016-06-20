@@ -1,0 +1,94 @@
+.countdown-clock-wrapper {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.countdown-clock {
+  width: unset!;
+  display: inline-block;
+}
+
+.countdown-clock .days .flip-clock-label.more-than-99-days {
+  right: -116px;
+}
+
+.header {
+  background: url(images/P2040391-edited.jpg) no-repeat center/100% scroll;
+}
+
+.header .text-vertical-center {
+  border-bottom: 50px rgb(159, 160, 152);
+}
+
+.header h1 {
+  color: rgb(162, 65, 120);
+  margin-top: 20px;
+  text-shadow: -1px 0 rgb(200,200,200), 0 1px rgb(51,51,51), 1px 0 rgb(51,51,51), 0 -1px rgb(51,51,51);
+}
+
+a {
+  color: rgb(162, 65, 120);
+}
+
+.bling-wrapper {
+  background-color: black;
+  display: flex;
+  margin-top: 30px;
+}
+
+.bling {
+  display:block;
+  margin-top: 30px;
+  background: url(images/neon-heart.jpg) no-repeat center/100% scroll;
+  background-position-y: 30px;
+  color: white;
+  text-shadow: -1px 0 rgb(200,200,200), 0 1px rgb(51,51,51), 1px 0 rgb(51,51,51), 0 -1px rgb(51,51,51);
+  width: 100%;
+}
+
+@media (min-width: 800px) {
+  .lizard {
+    margin-top: 30px;
+  }
+}
+
+
+.call-to-action {
+  background-color: rgb(162, 65, 120);
+}
+
+@media (max-width: 370px) {
+  .countdown-clock {
+    zoom: 0.4;
+  }
+}
+
+@media (min-width: 370px) {
+  .countdown-clock {
+    zoom: 0.5;
+  }
+}
+
+@media (min-width: 443px) {
+  .countdown-clock {
+    zoom: 0.6;
+  }
+}
+
+@media (min-width: 514px) {
+  .countdown-clock {
+    zoom: 0.7;
+  }
+}
+
+@media (min-width: 585px) {
+  .countdown-clock {
+    zoom: 0.8;
+  }
+}
+
+@media (min-width: 656px) {
+  .countdown-clock {
+    zoom: 0.9;
+  }
+}
